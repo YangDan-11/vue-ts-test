@@ -1,0 +1,21 @@
+{
+  "extends": "tslint-config-standard",
+  "globals": {
+    "require": true
+  },
+  "rules":{
+    "no-trailing-whitespace": false,
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  }
+}
